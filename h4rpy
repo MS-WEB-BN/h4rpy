@@ -1,0 +1,18 @@
+#!/bin/bash
+
+h4rpy() {
+	terminator -l h4rpy
+}
+
+ui() {
+	echo -e  "[${green}*${default}] Starting h4rpy..."
+	h4rpy
+	echo -e "[${red}*${default}] h4rpy stopped."
+}
+
+	red='\033[0;31m'
+	green='\033[0;32m'
+	yellow='\033[0;33m'
+	default='\033[0;39m'
+
+ui

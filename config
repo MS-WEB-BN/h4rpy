@@ -1,0 +1,77 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      command = ""
+  [[h4rpy]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:27
+      maximised = True
+      fullscreen = False
+      size = 1366, 704
+      title = h4rpy
+      last_active_term = bfc5b2cd-787a-4e04-85af-d0613a5fdda4
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 680
+      ratio = 0.4996326230712711
+    [[[child2]]]
+      type = VPaned
+      parent = child1
+      order = 0
+      position = 350
+      ratio = 0.5007153075822603
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = default
+      uuid = bfc5b2cd-787a-4e04-85af-d0613a5fdda4
+      command = bash mm_ad.sh
+    [[[terminal4]]]
+      type = Terminal
+      parent = child2
+      order = 1
+      profile = default
+      uuid = 3646254b-0ebc-4bbd-ab97-fee8f0792b06
+      command = bash ar.sh
+    [[[child5]]]
+      type = VPaned
+      parent = child1
+      order = 1
+      position = 350
+      ratio = 0.5007153075822603
+    [[[terminal6]]]
+      type = Terminal
+      parent = child5
+      order = 0
+      profile = default
+      uuid = 3dfcf78d-f687-4d72-b156-b71d447c3d74
+      command = bash ad.sh
+    [[[terminal7]]]
+      type = Terminal
+      parent = child5
+      order = 1
+      profile = default
+      uuid = a2856dda-d422-4c8a-9cb4-b8eb8e455388
+      command = bash ac.sh
+[plugins]

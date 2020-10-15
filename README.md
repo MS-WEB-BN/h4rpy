@@ -4,7 +4,7 @@
 **h4rpy** provides clean interface for automated cracking of WPA/WPA2 PSK networks. **h4rpy** enables monitor mode on selected wireless interface, scans the wireless space for access points, tries to capture WPA/WPA2 4-way handshake for the acess point, and starts a dictionary attack on the handshake. It is also possible to send disassociate packets to clients associated with access point.
 
 # Installation:
-Installation consists of cloning the repo, running a script that will install dependencies ([aircrack-ng framework](https://github.com/aircrack-ng/aircrack-ng) and [Terminator](https://code.launchpad.net/terminator/) are required in order to run **h4rpy**), and making **h4rpy** executable. Script only works with apt package manager (Debian based distributions). 
+Installation consists of cloning the repo, running a script that will install dependencies ([aircrack-ng framework](https://github.com/aircrack-ng/aircrack-ng) and [Terminator](https://code.launchpad.net/terminator/) are required in order to run **h4rpy**), or installing them manually, and making **h4rpy** executable. Installation script works with apt and pacman package managers (Debian and Arch). 
 ```
 # git clone https://github.com/MS-WEB-BN/h4rpy/
 # cd h4rpy

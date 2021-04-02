@@ -31,7 +31,7 @@ To run h4rpy:
 
 # License:
 
-The software is free to use, modify and distribute, as long as the credit is given to the creator (***n1x_ [MS-WEB]***).
+The software is free to use, modify and distribute, as long as the credit is given to the creator (***n1x_ [[MS-WEB]](https://www.ms-web.agency/)***).
 
 # Disclaimer:
 

@@ -17,10 +17,10 @@ aireplay() {
 	read
 	if [ -z "$client" ]
 		then
-			aireplay-ng -0 $packets -a $bssid $interface
+			aireplay-ng -0 $packets -a $bssid --ignore-negative-one $interface
 			restart
 		else
-			aireplay-ng -0 $packets -c $client -a $bssid $interface
+			aireplay-ng -0 $packets -c $client -a $bssid --ignore-negative-one $interface
 			unset client
 			restart
 	fi
